@@ -1,0 +1,43 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    padding: 10px;
+  }
+  
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #001f3f; 
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #8B0000;
+  }
+  
+  .pa, ul {
+    font-size: 1rem;
+    color: #333; 
+  }
+  
+  a {
+    color: #183a37; 
+    text-decoration: underline;
+  }
+  

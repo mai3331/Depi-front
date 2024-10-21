@@ -1,0 +1,52 @@
+.custom-navbar {
+    background-color: #001f3f; 
+    height: 80px; 
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #8B0000 !important; 
+    text-decoration: none; 
+  }
+  
+  .icon-link i {
+    color: white;
+    font-size: 1.5rem; 
+    margin-left: 20px;
+  }
+  
+  .icon-link i:hover {
+    color:#8B0000 ; 
+  }
+  .navbar-brand:hover{
+    color: #8B0000;
+  }
+  .btn-outline-success {
+    color: white;
+    border-color: white;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: white;
+    color: #001f3f; 
+  }
+  .bi-star-fill{
+    color: yellow;
+    font-size: 1rem;
+  }
+  .dropdown-item:hover{
+    color: #fff;
+    background-color:#8B0000 ;
+  }

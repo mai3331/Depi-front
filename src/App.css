@@ -1,0 +1,33 @@
+.next, .prev {
+    background-color:#8B0000;
+    border: none;
+  }
+  
+  .next1,.prev1 {
+    background-color: #8B0000;
+  }
+.next, .prev :hover{
+    background-color:none;
+    border: none;
+  }
+  
+  .next1,.prev1 {
+    background-color: #8B0000;
+    opacity: 1;
+    border: none; 
+  box-shadow: none;
+  }
+ 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; 
+
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent; 
+  box-shadow: none;
+}
