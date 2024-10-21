@@ -16,7 +16,7 @@ const MovieDetails = () => {
   useEffect(() => {
     const fetchMovieDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/movies/${id}`);
+        const response = await fetch(`https://depi-back-production.up.railway.app/api/movies/${id}`);
         if (response.ok) {
           const movieData = await response.json();
           setMovie(movieData);
@@ -78,7 +78,7 @@ const MovieDetails = () => {
     }
 
     try {
-        const response = await fetch('http://localhost:5000/api/users/favorites', {
+        const response = await fetch('https://depi-back-production.up.railway.app/api/users/favorites', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

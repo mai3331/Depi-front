@@ -13,7 +13,7 @@ export const loginUser = createAsyncThunk(
     'user/login',
     async ({ email, password }, { rejectWithValue }) => {
         try {
-            const response = await fetch('http://localhost:5000/api/users/login', {
+            const response = await fetch('https://depi-back-production.up.railway.app/api/api/users/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })
@@ -38,7 +38,7 @@ export const registerUser = createAsyncThunk(
     'user/register',
     async ({ email, password, name }, { rejectWithValue }) => {
         try {
-            const response = await fetch('http://localhost:5000/api/users/register', {
+            const response = await fetch('https://depi-back-production.up.railway.app/api/users/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, password })

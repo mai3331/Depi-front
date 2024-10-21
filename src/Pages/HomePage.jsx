@@ -14,7 +14,7 @@ const Home = () => {
     const fetchMovies = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/movies/top/popular"
+          "https://depi-back-production.up.railway.app/api/movies/top/popular"
         );
         const data = await response.json();
         setMovies(data);
@@ -31,7 +31,7 @@ const Home = () => {
     const fetchMovies = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/movies/random/all"
+          "https://depi-back-production.up.railway.app/api/movies/random/all"
         );
         const data = await response.json();
         setRandomMovies(data);

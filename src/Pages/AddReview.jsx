@@ -15,7 +15,7 @@ const AddReview = ({ movieId, onAddReview }) => {
     };
 
     try {
-      const response = await fetch(`http://localhost:5000/api/movies/${movieId}/reviews`, {
+      const response = await fetch(`https://depi-back-production.up.railway.app/api/movies/${movieId}/reviews`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

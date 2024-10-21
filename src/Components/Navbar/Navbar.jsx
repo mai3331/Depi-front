@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchGenres = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/genres");
+        const response = await fetch("https://depi-back-production.up.railway.app/api/genres");
         const data = await response.json();
         setGenres(data);
         setLoading(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/movies`);
+        const response = await fetch(`https://depi-back-production.up.railway.app/api/movies`);
         if (response.ok) {
           const movieData = await response.json();
           setMovies(movieData);
