@@ -46,7 +46,7 @@ const MovieDetails = () => {
     }
 
     const response = await fetch(
-      `http://localhost:5000/api/movies/${id}/reviews`,
+      `https://depi-back-production.up.railway.app/api/movies/${id}/reviews`,
       {
         method: "POST",
         headers: {
