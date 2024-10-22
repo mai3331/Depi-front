@@ -22,11 +22,10 @@ function App() {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                {/* Redirect to login if not authenticated */}
+             
                 <Route path='/login' element={<Login />} />
                 <Route path='/signUp' element={<SignUp />} />
-                
-                {/* Redirect to home after login */}
+              
                 <Route path='/' element={<Navigate to='/login' />} />
 
                 <Route path='/home' element={<Home />} />
