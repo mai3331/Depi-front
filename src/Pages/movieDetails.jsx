@@ -78,7 +78,7 @@ const MovieDetails = () => {
     }
 
     try {
-        const response = await fetch('https://depi-back-production.up.railway.app/api/users/favorites', {
+        const response = await fetch('https://depi-back-production.up.railway.app/users/favorites', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

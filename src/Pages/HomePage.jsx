@@ -31,7 +31,7 @@ const Home = () => {
     const fetchMovies = async () => {
       try {
         const response = await fetch(
-          "https://depi-back-production.up.railway.app/api/movies/random/all"
+          "https://https://depi-back-production.up.railway.app/api/movies/random/all"
         );
         const data = await response.json();
         setRandomMovies(data);

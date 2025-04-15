@@ -17,7 +17,7 @@ const Favourites = () => {
       return;
     }
       try {
-        const response = await fetch('https://depi-back-production.up.railway.app/api/users/favorites', {
+        const response = await fetch('https://depi-back-production.up.railway.app/users/favorites', {
           headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`

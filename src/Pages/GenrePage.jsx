@@ -8,7 +8,7 @@ const Genres = () => {
   useEffect(() => {
     const fetchMovieData = async () => {
       const response = await fetch(
-        `https://depi-back-production.up.railway.app/api/movies/genre/${title}`
+        `https:depi-back-production.up.railway.app/api/movies/genre/${title}`
       );
       const data = await response.json();
       setFilteredMovies(data);
